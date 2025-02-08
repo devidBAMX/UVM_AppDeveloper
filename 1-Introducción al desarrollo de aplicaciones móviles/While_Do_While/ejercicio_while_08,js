@@ -1,0 +1,9 @@
+//Imprimir la tabla de multiplicar del 5
+//modifica el codigo para imprimir cualquier tabla de multiplicar cualquier numero ingresado por el usuario
+
+let multiplier =1;
+let number =parseInt(prompt("Ingrese el numero de la tabla de multiplicar que desea ver"));
+while (multiplier <= 10) {
+    console.log(`${number} x ${multiplier} = ${number*multiplier}`);
+    multiplier++;
+}

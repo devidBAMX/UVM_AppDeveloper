@@ -1,0 +1,9 @@
+//Haz que el número factorial se solicite al usuario mediante 
+
+let factorial = 1;
+let numberFactorial = parseInt(prompt("Introduce un número para calcular su factorial: "));
+do {
+    factorial *= numberFactorial;
+    numberFactorial--;
+} while (numberFactorial > 0);
+console.log("El factorial es: " + factorial);
